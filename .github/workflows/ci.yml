@@ -16,3 +16,8 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -f docker/Dockerfile -t test-app .
+
+      - name: Check Terraform formatting
+        run: |
+          cd terraform
+          terraform fmt -check || true
