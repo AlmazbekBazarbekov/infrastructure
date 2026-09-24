@@ -4,3 +4,4 @@
 - `kubernetes/` — Манифесты деплоя.
 - `monitoring/` — Конфигурация Prometheus.
 - `.github/workflows/` — Автоматизация CI/CD.
+## Раздел Мониторинга: Prometheus and Grafana Stack
