@@ -8,7 +8,7 @@ HEAD
 ## Раздел Мониторинга: Prometheus v2.45 and Grafana Stack
 main
 
-## 🚀 Инструкция по развертыванию
+## Инструкция по развертыванию
 1. Сборка приложения:
    `docker build -f docker/Dockerfile -t myapp .`
 2. Развертывание инфраструктуры:
